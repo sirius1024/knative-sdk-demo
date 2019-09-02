@@ -1,0 +1,3 @@
+api: 
+ group: "serving.knative.dev"
+ version: v1beta1
