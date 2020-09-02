@@ -1,10 +1,19 @@
 module github.com/sirius1024/knative-sdk-demo
 
-go 1.13
+go 1.15
 
 require (
-	k8s.io/api v0.0.0-20191112020540-7f9008e52f64
-	k8s.io/apimachinery v0.0.0-20191111054156-6eb29fdf75dc
-	knative.dev/client v0.10.0
-	knative.dev/serving v0.10.0
+	k8s.io/api v0.19.0
+	k8s.io/apimachinery v0.19.0
+	knative.dev/client v0.17.0
+	knative.dev/serving v0.17.2
+)
+
+replace (
+	k8s.io/api => k8s.io/api v0.17.6
+	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.17.6
+	k8s.io/apimachinery => k8s.io/apimachinery v0.17.6
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.17.6
+	k8s.io/client-go => k8s.io/client-go v0.17.6
+	k8s.io/code-generator => k8s.io/code-generator v0.17.6
 )
