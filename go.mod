@@ -3,10 +3,10 @@ module github.com/sirius1024/knative-sdk-demo
 go 1.15
 
 require (
-	k8s.io/api v0.19.0
-	k8s.io/apimachinery v0.19.0
+	k8s.io/api v0.27.6
+	k8s.io/apimachinery v0.27.6
 	knative.dev/client v0.17.0
-	knative.dev/serving v0.17.2
+	knative.dev/serving v0.39.0
 )
 
 replace (
